@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "YouTube Pinned",
-  "version": "0.1.0",
-  "description": "YouTube videos stay fixed to the top half of the window",
+  "name": "YouTube™ Pinned",
+  "version": "0.1.1",
+  "description": "YouTube™ videos stay fixed to the top half of the window",
   "icons": {
   	"16": "images/icon-16.png",
   	"48": "images/icon-48.png",
