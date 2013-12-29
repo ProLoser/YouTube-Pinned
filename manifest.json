@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Cruiser",
+  "version": "0.0.1",
+
+  "description": "YouTube videos stay fixed to the top half of the window",
+  "icons": {},
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "css": ["YouTubeCruise.css"]
+    }
+  ],
+  
+  "author": "Dean Sofer",
+  "homepage_url": "http://deansofer.com"
+}
