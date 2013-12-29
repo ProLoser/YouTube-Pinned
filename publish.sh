@@ -1,1 +1,1 @@
-zip -r Publish.zip *.css *.json
+zip -r Publish.zip *.css *.json images/*

@@ -1,4 +1,4 @@
-# YouTube-Cruiser Chrome Extension
+# YouTube-Pinned Chrome Extension
 
 Sticks YouTube videos to the top half of the page! 
 
