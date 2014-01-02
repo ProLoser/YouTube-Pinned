@@ -14,12 +14,16 @@ body:not(.flex-width-enabled) {
 	overflow: hidden;
 	resize: vertical;
 }
+#player * {
+	resize: none;
+}
 #player:after {
 	display: block;
+	position: absolute;
+	z-index: 1000;
 	content: '';
 	height: 0;
 	width: 0;
-	position: absolute;
 	bottom: 0;
 	right: 0;
 	border-top: transparent solid 13px;
