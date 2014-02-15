@@ -9,6 +9,7 @@ body:not(.flex-width-enabled) {
 	top: 0;
 	padding: 0 !important;
 	width: 100%;
+	min-width: 0 !important;
 	height: 50%;
 	z-index: 1000;
 	overflow: hidden;
