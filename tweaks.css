@@ -16,7 +16,7 @@ body:not(.flex-width-enabled) {
 	overflow: hidden;
 	resize: vertical;
 }
-#masthead-positioner {
+body:not(.flex-width-enabled) #masthead-positioner {
 	top: 50% !important;
 }
 #player * {
@@ -88,4 +88,16 @@ video.html5-main-video {
 	left: auto !important;
 	right: 0;
 	width: 400px;
- }
+}
+
+[data-player-size="large"] #player {
+ 	height: 100%;
+ 	z-index: 3;
+}
+#player.watch-medium {
+	height: 100%;
+	z-index: 2000000000;
+}
+[data-player-size="large"] #masthead-positioner {
+	z-index: 2;
+}
