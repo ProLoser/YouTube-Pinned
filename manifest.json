@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Pinned Videos for YouTube™",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "YouTube™ videos stay fixed to the top half of the window",
   "icons": {
   	"16": "images/icon-16.png",

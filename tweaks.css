@@ -13,35 +13,9 @@ body:not(.flex-width-enabled) {
 	max-width: none !important;
 	height: 50%;
 	z-index: 1000;
-	overflow: hidden;
-	resize: vertical;
 }
 body:not(.flex-width-enabled) #masthead-positioner {
 	top: 50% !important;
-}
-#player * {
-	resize: none;
-}
-#player:after {
-	display: block;
-	position: absolute;
-	z-index: 1000;
-	content: '';
-	height: 0;
-	width: 0;
-	bottom: 0;
-	right: 0;
-	border-top: transparent solid 13px;
-	border-left: #757575 solid 13px;
-	border-bottom: transparent solid 13px;
-	transition: all ease 0.2s;
-	transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-	transform-origin:0% 100%;
-	-webkit-transform-origin:0% 100%;
-}
-#player:hover:after {
-	border-left-color: #959595;
 }
 
 #watch7-playlist-data .watch7-playlist-bar-left {
@@ -84,18 +58,18 @@ video.html5-main-video {
 	height: 100%;
 }
 
-.watch-medium #watch7-playlist-tray-container {
+.watch-medium #watch7-playlist-tray-container, .watch-large #watch7-playlist-tray-container {
 	left: auto !important;
 	right: 0;
 	width: 400px;
 }
 
 [data-player-size="large"] #player {
- 	height: 100%;
+ 	height: 100% !important;
  	z-index: 3;
 }
-#player.watch-medium {
-	height: 100%;
+#player.watch-medium, #player.watch-large {
+	height: 100% !important;
 	z-index: 2000000000;
 }
 [data-player-size="large"] #masthead-positioner {
